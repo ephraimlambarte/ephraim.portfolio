@@ -1,0 +1,14 @@
+.mainNavbar{
+    display:block;
+}
+.navbarCollapsed{
+    display:none;
+}
+@media (max-width: 960px) {
+    .mainNavbar{
+        display:none;
+    }
+    .navbarCollapsed{
+        display:block;
+    }
+}

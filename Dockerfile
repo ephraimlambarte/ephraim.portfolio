@@ -9,6 +9,10 @@ RUN npm install -g http-server
 # Make port 80 available to the world outside this container
 EXPOSE 8080
 
+#Environment variables
+#for enabling hot reload
+ENV CHOKIDAR_USEPOLLING=true
+
 # make the 'app' folder the current working directory
 WORKDIR /app
 
